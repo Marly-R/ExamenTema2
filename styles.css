@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    background-color: #000;
+    border: 2px solid #fff;
+}
+
+.game-container {
+    position: relative;
+}
+
+#instructions {
+    text-align: center;
+}
+
+#hud {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}

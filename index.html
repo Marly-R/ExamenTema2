@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Asteroides</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="text-center bg-dark text-white py-3">
+        <h1>Juego de Asteroides</h1>
+    </header>
+    <main class="d-flex flex-column align-items-center bg-secondary">
+        <div id="instructions" class="text-white mb-3">
+            <p>Elimina los asteroides. Veamos cuántos puedes ser capaz de eliminar.</p>
+            <p>Usa las flechas o WASD para moverte y espacio para disparar.</p>
+        </div>
+        <div class="game-container">
+            <canvas id="gameCanvas" width="800" height="600"></canvas>
+        </div>
+    </main>
+    <footer class="text-center bg-dark text-white py-3">
+        <p>Créditos: Desarrollado por Marly Galarza</p>
+    </footer>
+    <script src="game.js"></script>
+</body>
+</html>
